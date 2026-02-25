@@ -41,13 +41,41 @@ namespace CasoEstudio01.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Matricula (MatriculaModel model)
         {
+            //using (var context = new CasoEstudioEntities())
+            //{
+            //    context.sp_RegistrarM(
+            //        model.Identificacion,
+            //        model.Monto,
+            //        model.TipoCurso
+            //    );
+            //}
+
+            //return RedirectToAction("MatriculaConsulta", "Home");
+            model.ListaTiposCursos = ObtenerTiposCursos();
+
             using (var context = new CasoEstudioEntities())
             {
-                context.sp_RegistrarM(
-                    model.Identificacion,
-                    model.Monto,
-                    model.TipoCurso
-                );
+                var id = model.Identificacion.Trim();
+
+                // ===== Regla: máximo 3 estudiantes distintos por tipo =====
+                int cantidadDistintos = context.Estudiantes
+                    .Where(e => e.TipoCurso == model.TipoCurso)
+                    .Select(e => e.Identificacion.Trim())
+                    .Distinct()
+                    .Count();
+
+                bool yaExisteEnEseTipo = context.Estudiantes.Any(e =>
+                    e.TipoCurso == model.TipoCurso &&
+                    e.Identificacion.Trim() == id);
+
+                if (cantidadDistintos >= 3 && !yaExisteEnEseTipo)
+                {
+                    ViewBag.Mensaje = "No se puede matricular más de 3 estudiantes distintos por tipo de curso.";
+                    return View(model);
+                }
+
+                // Si pasa la validación, usa tu SP
+                context.sp_RegistrarM(id, model.Monto, model.TipoCurso);
             }
 
             return RedirectToAction("MatriculaConsulta", "Home");

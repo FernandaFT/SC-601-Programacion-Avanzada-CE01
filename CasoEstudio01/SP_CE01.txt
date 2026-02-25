@@ -1,0 +1,36 @@
+CREATE PROCEDURE sp_RegistrarM
+    @Identificacion VARCHAR(15),
+    @Monto DECIMAL(10,2),
+    @TipoCurso INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Estudiantes
+        (Identificacion, Fecha, Monto, TipoCurso)
+    VALUES
+        (LTRIM(RTRIM(@Identificacion)), GETDATE(), @Monto, @TipoCurso);
+
+    RETURN 1;
+END
+GO
+
+-------
+
+CREATE PROCEDURE sp_ListarMatriculas
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT
+        e.Consecutivo,
+        e.Identificacion,
+        e.Fecha,
+        e.Monto,
+        tc.DescripcionTipoCurso
+    FROM dbo.Estudiantes e
+    INNER JOIN dbo.TiposCursos tc
+        ON tc.TipoCurso = e.TipoCurso
+    ORDER BY e.Fecha DESC;
+END
+GO
