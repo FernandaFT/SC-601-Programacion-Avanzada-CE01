@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\casoestudio01\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|solutionrelative:casoestudio01\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\casoestudio01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|solutionrelative:casoestudio01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|c:\\prograavanzada\\sc-601-programacion-avanzada-ce01\\casoestudio01\\casoestudio01\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|solutionrelative:casoestudio01\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40EF9AE6-ECDF-4E50-81FB-FDAB51B98AB3}|CasoEstudio01\\CasoEstudio01.csproj|C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\casoestudio01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -34,31 +34,30 @@
               "RelativeToolTip": "CasoEstudio01\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T18:43:24.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T18:43:24.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_LayoutExterno.cshtml",
               "DocumentMoniker": "C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\CasoEstudio01\\Views\\Shared\\_LayoutExterno.cshtml",
               "RelativeDocumentMoniker": "CasoEstudio01\\Views\\Shared\\_LayoutExterno.cshtml",
               "ToolTip": "C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\CasoEstudio01\\Views\\Shared\\_LayoutExterno.cshtml",
               "RelativeToolTip": "CasoEstudio01\\Views\\Shared\\_LayoutExterno.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-22T18:36:57.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\CasoEstudio01\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CasoEstudio01\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\PrograAvanzada\\SC-601-Programacion-Avanzada-CE01\\CasoEstudio01\\CasoEstudio01\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CasoEstudio01\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-22T18:25:47.884Z",
               "EditorCaption": ""
