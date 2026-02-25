@@ -156,3 +156,7 @@ C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\
 C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\obj\Debug\CasoEstu.6F137FD9.Up2Date
 C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\obj\Debug\CasoEstudio01.dll
 C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\obj\Debug\CasoEstudio01.pdb
+C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\bin\EntityFramework.dll
+C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\bin\EntityFramework.SqlServer.dll
+C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\bin\EntityFramework.xml
+C:\PrograAvanzada\SC-601-Programacion-Avanzada-CE01\CasoEstudio01\CasoEstudio01\bin\EntityFramework.SqlServer.xml

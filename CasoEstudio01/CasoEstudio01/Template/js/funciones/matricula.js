@@ -1,37 +1,34 @@
 ﻿$(function () {
 
-    $("#FormRegistroV").validate({
+    $("#FormMatricula").validate({
         rules: {
-            Cedula: {
+            Identificacion: {
                 required: true
             },
-            Nombre: {
+            Monto: {
+                required: true,
+                number: true,
+                min: 0.01
+            },
+            TipoCurso: {
                 required: true
-            },
-            Correo: {
-                required: true, email: true
-            },
-        },
-        messages: {
-            Cedula: {
-                required: "Campo requerido"
-            },
-            Nombre: {
-                required: "Campo requerido"
-            },
-            Correo: {
-                required: "Campo requerido",
-                email: "Formato incorrecto"
             }
         },
-
+        messages: {
+            Identificacion: {
+                required: "Campo requerido"
+            },
+            Monto: {
+                required: "Campo requerido",
+                number: "Debe ser numérico",
+                min: "Debe ser mayor a 0"
+            },
+            TipoCurso: {
+                required: "Campo requerido"
+            }
+        },
         errorElement: "span",
         errorClass: "text-light",
-
-        errorPlacement: function (error, element) {
-            error.insertAfter(element); 
-        },
-
         highlight: function (element) {
             $(element).addClass("is-invalid");
         },
